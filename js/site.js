@@ -1,3 +1,6 @@
 (function ($, undefined) {
-	$('div').not('.inner-div').lionbars(false);
+	$('div').not('.inner-div').lionbars({
+		'autohide': true,
+		'highlight': true
+	});
 }(jQuery));
